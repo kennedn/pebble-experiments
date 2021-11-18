@@ -1,0 +1,49 @@
+{
+    "targetPlatforms": [
+        "basalt", 
+        "chalk"
+    ], 
+    "projectType": "native", 
+    "messageKeys": {
+        "AppKeyDataLength": 1, 
+        "AppKeyChunkSize": 3, 
+        "AppKeyComplete": 4, 
+        "AppKeyDataChunk": 2, 
+        "ClayJSON": 100, 
+        "AppKeyIndex": 0
+    }, 
+    "companyName": "MakeAwesomeHappen", 
+    "enableMultiJS": true, 
+    "watchapp": {
+        "onlyShownOnCommunication": false, 
+        "hiddenApp": false, 
+        "watchface": false
+    }, 
+    "versionLabel": "1.0", 
+    "longName": "png-download-example", 
+    "shortName": "png-download-example", 
+    "name": "png-download-example", 
+    "sdkVersion": "3", 
+    "displayName": "png-download-example", 
+    "uuid": "d4ec0006-14e6-43b7-aaa8-ba0a01ffeeab", 
+    "appKeys": {
+        "AppKeyDataLength": 1, 
+        "AppKeyChunkSize": 3, 
+        "AppKeyComplete": 4, 
+        "AppKeyDataChunk": 2, 
+        "ClayJSON": 100, 
+        "AppKeyIndex": 0
+    }, 
+    "capabilities": [
+        "configurable"
+    ], 
+    "resources": {
+        "media": [
+            {
+                "type": "raw", 
+                "name": "LOADING_ANIMATION", 
+                "file": "images/loading_white.png"
+            }
+        ]
+    }
+}

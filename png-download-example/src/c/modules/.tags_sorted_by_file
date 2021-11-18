@@ -1,0 +1,26 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+AppKey	comm.c	/^} AppKey;$/;"	t	typeref:enum:__anon1	file:
+AppKeyChunkSize	comm.c	/^  AppKeyChunkSize,   \/\/ Size of any particular chunk$/;"	e	enum:__anon1	file:
+AppKeyComplete	comm.c	/^  AppKeyComplete     \/\/ Signal that all data has been transferred$/;"	e	enum:__anon1	file:
+AppKeyDataChunk	comm.c	/^  AppKeyDataChunk,   \/\/ The chunk of image data$/;"	e	enum:__anon1	file:
+AppKeyDataLength	comm.c	/^  AppKeyDataLength,  \/\/ Length of the array being transmitted$/;"	e	enum:__anon1	file:
+AppKeyIndex	comm.c	/^  AppKeyIndex = 0,   \/\/ Index of data chunk in whole array$/;"	e	enum:__anon1	file:
+comm_deinit	comm.c	/^void comm_deinit() {$/;"	f
+comm_init	comm.c	/^void comm_init() {$/;"	f
+inbox_received_handler	comm.c	/^static void inbox_received_handler(DictionaryIterator *iter, void *context) {$/;"	f	file:
+s_img_data	comm.c	/^static uint8_t *s_img_data;$/;"	v	file:
+s_img_size	comm.c	/^static int s_img_size;$/;"	v	file:
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+loading_bitmap	loading_layer.c	/^static GBitmap *loading_bitmap = NULL;$/;"	v	file:
+loading_bitmap_layer	loading_layer.c	/^static BitmapLayer *loading_bitmap_layer;$/;"	v	file:
+loading_layer_load	loading_layer.c	/^void loading_layer_load(Layer *parent) {$/;"	f
+loading_layer_unload	loading_layer.c	/^void loading_layer_unload() {$/;"	f
+loading_sequence	loading_layer.c	/^static GBitmapSequence *loading_sequence = NULL;$/;"	v	file:
+loading_timer	loading_layer.c	/^static AppTimer *loading_timer;$/;"	v	file:
+start_loading_animation	loading_layer.c	/^void start_loading_animation() {$/;"	f
+stop_loading_animation	loading_layer.c	/^void stop_loading_animation() {$/;"	f
+timer_handler	loading_layer.c	/^static void timer_handler(void *context) {$/;"	f	file:

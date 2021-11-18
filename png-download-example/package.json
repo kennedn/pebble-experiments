@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "author": "MakeAwesomeHappen",
+  "private": true,
+  "dependencies": {
+    "pebble-clay": "file:///home/kennedn/.pebble-dev/projects/clay"
+  },
+  "keywords": [
+    "pebble-app"
+  ],
+  "pebble": {
+    "sdkVersion": "3",
+    "resources": {
+      "media": [
+        {
+          "type": "raw",
+          "name": "LOADING_ANIMATION",
+          "file": "images/loading_white.png"
+        }
+      ]
+    },
+    "projectType": "native",
+    "uuid": "d4ec0006-14e6-43b7-aaa8-ba0a01ffeeab",
+    "messageKeys": {
+      "AppKeyComplete": 4,
+      "AppKeyIndex": 0,
+      "AppKeyDataLength": 1,
+      "AppKeyDataChunk": 2,
+      "AppKeyChunkSize": 3,
+      "ClayJSON": 100
+    },
+    "enableMultiJS": true,
+    "displayName": "png-download-example",
+    "watchapp": {
+      "onlyShownOnCommunication": false,
+      "hiddenApp": false,
+      "watchface": false
+    },
+    "targetPlatforms": [
+      "basalt",
+      "chalk"
+    ],
+    "capabilities": []
+  },
+  "name": "png-download-example"
+}
