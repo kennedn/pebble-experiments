@@ -1,0 +1,32 @@
+{
+    "targetPlatforms": [
+        "aplite", 
+        "basalt", 
+        "chalk", 
+        "diorite"
+    ], 
+    "displayName": "clay-icon", 
+    "name": "clay-icon", 
+    "messageKeys": {
+        "ClayJSON": 10000
+    }, 
+    "companyName": "MakeAwesomeHappen", 
+    "enableMultiJS": true, 
+    "versionLabel": "1.0", 
+    "capabilities": [
+        "configurable"
+    ], 
+    "sdkVersion": "3", 
+    "appKeys": {
+        "ClayJSON": 10000
+    }, 
+    "longName": "clay-icon", 
+    "shortName": "clay-icon", 
+    "watchapp": {
+        "watchface": false
+    }, 
+    "resources": {
+        "media": []
+    }, 
+    "uuid": "5fe2ab9c-38e4-4169-a468-a9baae7b3ff3"
+}

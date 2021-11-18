@@ -1,0 +1,36 @@
+{
+  "name": "clay-icon",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "base64-arraybuffer": "^1.0.1",
+    "blob-polyfill": "^4.0.20200601",
+    "bluebird": "3.7.2",
+    "pebble-clay": "kennedn/clay#hack/Retrieve-item-value-by-Id"
+  },
+  "pebble": {
+    "displayName": "clay-icon",
+    "uuid": "5fe2ab9c-38e4-4169-a468-a9baae7b3ff3",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "ClayJSON"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
